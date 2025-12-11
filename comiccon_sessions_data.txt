@@ -1,0 +1,11 @@
+id,session_title,fandom_category,day,time_slot,room,description
+1,Intro to Multiverse Storytelling,Sci-Fi,Saturday,9 AM,Room A,Panel on writing stories across parallel universes
+2,Anime Opening Themes Live,Anime,Saturday,11 AM,Main Stage,Live band performing iconic anime openings
+3,Building Your First Indie Game,Gaming,Saturday,1 PM,Room C,Workshop on tools and workflows for small game teams
+4,Heroes Under the Mask,Superheroes,Saturday,3 PM,Room B,Discussion on secret identities and modern storytelling
+5,Worldbuilding for Epic Fantasy,Fantasy,Saturday,5 PM,Room A,Tips and tricks for creating believable fantasy worlds
+6,Cosplay Armor 101,Gaming,Sunday,9 AM,Room D,Hands-on demo for foam and thermoplastic armor
+7,Drawing Dynamic Superhero Poses,Superheroes,Sunday,11 AM,Art Hall,Live drawing session with pro comic artists
+8,Space vs. Magic: Crossover Worlds,Sci-Fi,Sunday,1 PM,Room B,Panel comparing science-based and magic-based universes
+9,Anime Villains We Secretly Love,Anime,Sunday,3 PM,Room C,Audience discussion on complex antagonists
+10,GM Roundtable: Running One-Shots,Fantasy,Sunday,5 PM,Room D,Advice for running memorable tabletop RPG sessions

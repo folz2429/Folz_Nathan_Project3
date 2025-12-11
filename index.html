@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comic-Con Session Registration</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <button class="menu-button" id="menuButton">Menu</button>
+  <nav class="menu-panel" id="menuPanel">
+    <a href="index.html">Register</a>
+    <a href="schedule.html">Schedule</a>
+  </nav>
+
+  <h1 class="comic-heading">Comic-Con Session Registration</h1>
+
+  <form id="sessionForm">
+    <label>
+      Attendee Name:
+      <input type="text" id="attendeeName" required>
+    </label>
+
+    <label>
+      Email:
+      <input type="email" id="email" required>
+    </label>
+
+    <label>
+      Session Title:
+      <select id="sessionTitle" required>
+        <option value="">Loading sessions...</option>
+      </select>
+    </label>
+
+    <label>
+      Time Slot:
+      <select id="timeSlot" required>
+        <option value="">-- Pick a time --</option>
+        <option>9 AM</option>
+        <option>11 AM</option>
+        <option>1 PM</option>
+        <option>3 PM</option>
+        <option>5 PM</option>
+      </select>
+    </label>
+
+    <label>
+      Fandom Category:
+      <select id="fandomCategory" required>
+        <option value="">-- Choose a category --</option>
+        <option>Anime</option>
+        <option>Superheroes</option>
+        <option>Gaming</option>
+        <option>Sci-Fi</option>
+        <option>Fantasy</option>
+      </select>
+    </label>
+
+    <label>
+      Cosplay Notes (optional):
+      <textarea id="cosplayNotes"></textarea>
+    </label>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

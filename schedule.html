@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Comic-Con Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <button class="menu-button" id="menuButton">Menu</button>
+  <nav class="menu-panel" id="menuPanel">
+    <a href="index.html">Register</a>
+    <a href="schedule.html">Schedule</a>
+  </nav>
+
+  <h1>Your Comic-Con Schedule</h1>
+
+  <button id="sortButton">Sort by Time</button>
+  <button id="clearButton" class="danger-btn">Clear Data</button>
+
+  <table id="scheduleTable">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Session Title</th>
+        <th>Fandom</th>
+        <th>Notes</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <footer id="totalSessions">Total Sessions: 0</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
